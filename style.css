@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+* {
+    overflow: hidden;
+    background-color:#353535;
+    user-select: none;
+}
+
+.logo_text {
+    color: white;
+    position: absolute;
+    left: 500px;
+    top: 75px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    cursor: default;
+
+}
+
+.flask {
+    position: absolute;
+    max-width: 100%;  
+    height: 25px; 
+    top: 12px;
+    left: 1150px;
+    cursor: pointer;
+}
+
+.dots {
+    position: absolute;
+    max-width: 100%;  
+    height: 25px; 
+    top: 12px;
+    left: 1200px;
+    cursor: pointer;
+
+}
+
+.gm {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    left: 1030px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.img {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    left: 1090px;
+    color: white;
+    text-decoration: none;
+}
+
+.img:hover,.gm:hover {
+    text-decoration: underline;
+}
+
+.accnt_icon {
+    position: absolute;
+    max-width: 100%;  
+    height: 25px; 
+    top: 12px;
+    left: 1240px;
+    cursor: pointer;
+}
+
+.search_bar {
+    text-decoration: none;
+    position: absolute;
+    left: 370px;
+    top: 300px;
+    cursor: auto;
+    background-color: white;
+    border: none;
+    border-radius: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 510px;
+    height: 40px;
+    padding: 0 60px 0 32px;
+    border-style: none;
+    outline: none;
+}
+
+.search_icon {
+    position: absolute;
+    left: 380px;
+    top: 312px;
+    background: none;
+}
+
+.mic {
+    position: absolute;
+    left: 940px;
+    top: 309px;
+    background: none;
+}
+
+.customize {
+    position: absolute;
+    top: 545px;
+    left: 1100px;
+    background-color: #272626;
+    opacity: 1;
+    border-radius: 40px;
+    width: 165px;
+    height: 35px;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 1px 2px rgba(0,0,0,.23); 
+    cursor: pointer;
+}
+
+.customize:hover {
+    background-color: #353935;
+    opacity: 0.9;
+}
+
+.pen {
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    outline: none;
+    background: none;
+    width: 18px;
+}
+
+.text {
+    position: absolute;
+    top: -12px;
+    left: 35px;
+    outline: none;
+    background: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.btn {
+    background-color: #353535;
+    border: none;
+    
+}
